@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1 class="main-title">Lorem ipsum dolor sit amet.</h1>
+    <div class="form-block">
+        <form class="form" action="#" method="get">
+        <select class="form-block__select" name="menu">
+            <option value="first">first</option>
+            <option value="second">second</option>
+            <option value="third">third</option>
+        </select>
+        <p><input class="form-block__input-text" type="text"></p>
+        <p><input placeholder="lorem" class="form-block__input-text_placeholder" type="text"></p>
+        <p><input disabled type="form-block__input-text_disabled"></p>
+        <p><input class="form-block__input-password" type="password"></p>
+        <p><input class="form-block__input-radio" type="radio" name="beer" value="lager">lager</p>
+        <p><input class="form-block__input-radio" type="radio" name="beer" value="dark">dark</p>
+        <p><input checked class="form-block__input-radio_checked" type="radio" name="beer" value="sidr">sidr</p>
+        <p><input class="form-block__input-checkbox" type="checkbox" name="car" value="yes">car</p>
+        <p><input class="form-block__input-checkbox" type="checkbox" name="car2" value="yes">car2</p>
+        <p><input class="form-block__input-checkbox" type="checkbox" name="car3" value="yes">car3</p>
+        <p><input class="form-block__input-file" type="file" name="foto"></p>
+        <p><button type="submit" class="form-block__input-button_submit">submit</button></p>
+        <p><button type="reset" class="form-block__input-button_reset">reset</button></p>
+    </div>
+    </form>
 </body>
 </html>
