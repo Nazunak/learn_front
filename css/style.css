@@ -37,6 +37,19 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap');
+/* підключення шрифта */
+@font-face {
+	font-family: 'FF_ck Beans Boldck Beans Bold';
+	font-display: swap;
+	src: url("../fonts/FF_ck\ Beans\ Boldck\ Beans\ Bold.eot");
+	src: local("O"), url("../fonts/FF_ck\ Beans\ Boldck\ Beans\ Bold.woff") format("woff"), 
+			url("../fonts/FF_ck\ Beans\ Boldck\ Beans\ Bold.ttf") format("truetype"), 
+			url("../fonts/FF_ck\ Beans\ Boldck\ Beans\ Bold.svg") format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+
 .form-block {
     border: 1px solid #000;
     padding: 10px;
@@ -44,7 +57,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .text-example {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'FF_ck Beans Boldck Beans Bold', sans-serif;
     font-size: large;
     font-style: italic;
     font-weight: 600;
