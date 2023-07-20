@@ -42,3 +42,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     padding: 10px;
     width: 400px;
 }
+
+.text-example {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    color: #543354;
+    text-align: left; 
+    text-decoration: none;
+    text-shadow: 1px 1px 10px #000;
+    text-transform: uppercase;
+    /* відступ першої букви */
+    text-indent: 50px;
+    /* проміжок між буквами */
+    letter-spacing: 5px;
+    /* відстань між строками */
+    line-height: 2;
+}
