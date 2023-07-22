@@ -73,3 +73,41 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     /* відстань між строками */
     line-height: 2;
 }
+
+.main-a {
+	font-family: 'FF_ck Beans Boldck Beans Bold', sans-serif;
+	color: #543354;
+	font-size: 20px;
+}
+
+.main-ul {
+	margin-left: 10px;
+}
+
+.main-li:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(/img/free-icon-check-mark-gray.png) 0 0/cover no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main-li:hover {
+	color: rgb(15, 189, 44);
+}
+
+.main-li:hover::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(/img/free-icon-check-mark.png) 0 0/cover no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+
+
+
+
