@@ -99,7 +99,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .main-li:hover {
 	color: rgb(15, 189, 44);
-	font-size: 26px;
 }
 
 .main-li:hover::before {
