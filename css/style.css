@@ -54,9 +54,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     border: 1px solid #000;
     padding: 10px;
     width: 400px;
+	margin: 10px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px #000;
-	margin: 20px;
+	box-shadow: 5px 5px 5px rgb(100, 97, 97);
+
 }
 
 .text-example {
@@ -77,9 +78,95 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     line-height: 2;
 }
 
-.photo-logo {
-	height: 100px;
-	width: 100px;
-	background: url(/img/logo.png) 0 0 no-repeat;
-	margin-bottom: 20px;
+.main-a {
+	font-family: 'FF_ck Beans Boldck Beans Bold', sans-serif;
+	color: #543354;
+	font-size: 20px;
 }
+
+.main-ul {
+	margin-left: 10px;
+	position: relative;
+}
+
+.main-li:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: url(/img/free-icon-check-mark-gray.png) 0 0/cover no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main-li:hover {
+	color: rgb(15, 189, 44);
+}
+
+.main-li:hover::before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	background: url(/img/free-icon-check-mark.png) 0 0/cover no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.position-block {
+	margin: 30px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgb(100, 97, 97);
+	width: 400px;
+	height: 200px;
+	position: relative;
+}
+
+.position-block div {
+	height: 25%;
+	width: 100%;
+}
+
+.position-block__first-block {
+	background-color: rgb(238, 121, 121);
+	border-radius: 10px 10px 0 0;
+}
+
+.position-block__second-block {
+	background-color: rgb(164, 238, 121);
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: 'FF_ck Beans Boldck Beans Bold', sans-serif;
+	color: #543354;
+}
+
+.position-block__second-block:hover {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	transition-duration: 3s;
+}
+
+.position-block__third-block {
+	background-color: rgb(121, 215, 238);
+	font-family: 'FF_ck Beans Boldck Beans Bold', sans-serif;
+	color: #543354;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.position-block__third-block:hover {
+	position: relative;
+	bottom: 20px;
+	right: 20px;
+	transition-duration: 3s;
+}
+
+.position-block__four-block {
+	background-color: rgb(238, 121, 213);
+	border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
