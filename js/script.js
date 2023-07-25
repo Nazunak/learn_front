@@ -8,3 +8,30 @@ $(document).ready(function() {
 });
 
 // кінець бургер меню 
+
+// початок спойлера 
+// $(document).ready(function() {
+//     $('.spoiler__title').click(function(event) {
+//         $(this).toggleClass('active').next().slideToggle(300);
+//     });
+// });
+// кінець спойлера 
+
+// $(document).ready(function() {
+//     $('.spoiler__title').click(function(event) {
+//         $(this).toggleClass('active');
+//     });
+// });
+
+// const button = document.querySelector('.block__contact-text');
+// const container = document.querySelector('.block__contact-info');
+
+// button.addEventListener('click', () => {
+//   if (container.classList.contains('active')) {
+//     container.classList.remove('active');
+//     container.style.maxHeight = 0;
+//   } else {
+//     container.classList.add('active');
+//     container.style.maxHeight = container.scrollHeight + 'px';
+//   }
+// });
