@@ -9,6 +9,25 @@ $(document).ready(function() {
 
 // кінець бургер меню 
 
+// ініціалізація слайдера 
+
+new Swiper('.image-slider', {
+    // arrows 
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 1,
+});
+
+// ініціалізація слайдера 
+
+
+
+
+
+
+
 // початок спойлера 
 // $(document).ready(function() {
 //     $('.spoiler__title').click(function(event) {
