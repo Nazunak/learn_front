@@ -396,11 +396,26 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	position: absolute;
 	top: 0;
 	left: 0;
+	color:#ffffff;
 }
 
-.image-slider .swiper-button-prev::before {
+.image-slider .swiper-button-next::after {
 	position: absolute;
 	top: 0;
 	right: 0;
+	color:#ffffff;
 }
+
+.image-slider .swiper-pagination{
+	padding-bottom: 20px;
+}
+
+.image-slider .swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	background-color:rgb(100, 97, 97);
+}
+
 /* кінець слайдера */
